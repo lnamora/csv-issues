@@ -1,0 +1,68 @@
+
+.tableContainer{
+    display: inline-block;
+}
+
+.tableContainer hr {
+    margin: -15px 15px 0px 15px;
+}
+
+.titleStats{
+    font-family: "Gill Sans Nova";
+    color: #282c34;
+    margin-left: 15px;
+    /*text-decoration: underline;*/
+}
+
+.tablaStats{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.tablaStats thead tr th{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.tablaStats tbody tr td{
+    font-size: 14px;
+}
+
+.tablaStats tbody tr td:nth-child(1){
+    min-width: 200px;
+}
+
+.tablaStats tbody tr td:nth-child(2){
+    text-align: right !important;
+}
+
+.tablaStats thead tr th,td{
+    text-align: left;
+    font-family: "Gill Sans Nova";
+    padding-right: 15px;
+}
+
+#returnButton{
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+    width: 100px;
+    font-family: "Gill Sans Nova Light";
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #D5D1D1;
+}
+
+#returnButton:hover{
+    background-color: #ff9900;
+}
+
+
+#returnButton:active{
+    background-color: #FF4D00;
+}
+
+
+

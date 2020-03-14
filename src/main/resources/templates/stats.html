@@ -1,0 +1,27 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Form Result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h2 class="my-5">Regions Stats</h2>
+    <table class="table table-striped table-responsive-md">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>totalCount</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="rstats : ${regionStats}">
+            <td th:text="${rstats.columnName}"></td>
+            <td th:text="${rstats.totalCount}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+<a href="/sales">resubmit form</a>
+</body>
+</html>

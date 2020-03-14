@@ -1,4 +1,4 @@
-package com.demo.espublico.salesapp.model;
+package com.demo.espublico.salesapp.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

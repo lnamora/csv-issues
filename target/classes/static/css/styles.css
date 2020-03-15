@@ -1,4 +1,6 @@
 
+/*Estilos pantalla STATS*/
+
 .tableContainer{
     display: inline-block;
 }
@@ -11,7 +13,6 @@
     font-family: "Gill Sans Nova";
     color: #282c34;
     margin-left: 15px;
-    /*text-decoration: underline;*/
 }
 
 .tablaStats{
@@ -59,10 +60,41 @@
     background-color: #ff9900;
 }
 
-
 #returnButton:active{
     background-color: #FF4D00;
 }
 
 
+/*Estilos pantalla ERROR*/
+
+#iconError{
+    display: inline-block;
+    color: #8A0808;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.titleError{
+    font-family: "Gill Sans Nova";
+    color: #8A0808;
+    margin-left: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.entryError{
+    font-size: 15px;
+    font-family: "Gill Sans Nova";
+    margin: 15px 0px 0px 15px;
+}
+
+.textError{
+    font-size: 14px;
+    font-family: "Gill Sans Nova Light";
+    margin: 0px 0px 10px 15px;
+}
+
+.containerError{
+    margin: 15px 15px 30px 20px;
+}
 

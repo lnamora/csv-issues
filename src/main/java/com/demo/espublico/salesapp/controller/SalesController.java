@@ -32,6 +32,11 @@ public class SalesController {
         this.salesRepository = ISalesRepository;
     }
 
+    @GetMapping("/error")
+    public String showError( BindingResult result) {
+        return "error";
+    }
+
     @GetMapping("/index")
     public String showIndex(Model model) {
         model.addAttribute( "csvfile", new FormCsv());
